@@ -17,7 +17,8 @@ function saveStudy() {
 }
 
 function allQuestions() {
-  return [...(window.QUESTION_BANK || [])].sort((a, b) => b.year - a.year || a.number - b.number);
+  return [...(window.GENERATED_QUESTION_BANK || []), ...(window.QUESTION_BANK || [])]
+    .sort((a, b) => b.year - a.year || a.term.localeCompare(b.term) || a.number - b.number);
 }
 
 function filteredQuestions() {
