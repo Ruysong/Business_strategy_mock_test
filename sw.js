@@ -1,4 +1,4 @@
-const CACHE = "classic-exam-v6";
+const CACHE = "classic-exam-v7";
 const ASSETS = ["/", "/index.html", "/styles.css", "/app.js", "/data/questions.js", "/manifest.webmanifest"];
 
 self.addEventListener("install", event => {
