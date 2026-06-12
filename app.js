@@ -135,6 +135,20 @@ function render() {
 function cardMarkup(q) {
   const selected = state.study.answers[q.id];
   const revealed = selected !== undefined;
+  if (!q.choices?.length) {
+    return `<article class="card">
+      <div class="card-head">
+        <div>
+          <div class="question-number">Question ${String(q.number).padStart(2,"0")}</div>
+          <h2 class="question-text">${escapeHtml(q.question)}</h2>
+        </div>
+        <button class="star-button ${state.study.starred[q.id] ? "active" : ""}" data-action="star" aria-label="별표">${state.study.starred[q.id] ? "★" : "☆"}</button>
+      </div>
+      ${revealed
+        ? `<div class="explanation"><strong>정답: ${escapeHtml(q.answerText)}</strong>${escapeHtml(q.explanation)}</div>`
+        : `<button class="reveal-button" data-action="reveal">정답과 해설 보기</button>`}
+    </article>`;
+  }
   return `<article class="card">
     <div class="card-head">
       <div>
@@ -173,6 +187,7 @@ document.addEventListener("click", event => {
   if (el.dataset.action === "prev") move(-1);
   if (el.dataset.action === "next") move(1);
   if (el.dataset.action === "reset" && q) resetAnswer(q);
+  if (el.dataset.action === "reveal" && q) setAnswer(q, 0);
   if (el.dataset.action === "star" && q) toggleStar(q);
   if (el.dataset.action === "open-sidebar") state.sidebarOpen = true;
   if (el.dataset.action === "close-sidebar") state.sidebarOpen = false;
