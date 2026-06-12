@@ -85,7 +85,16 @@ button { color: inherit; cursor: pointer; }
   .mobile-menu { border: 1px solid var(--line); background: var(--surface); border-radius: 10px; width: 40px; height: 40px; }
   .main { min-height: 100dvh; padding: max(16px, env(safe-area-inset-top)) 14px max(20px, env(safe-area-inset-bottom)); }
   .topbar { margin-bottom: 13px; }
-  .reset-button { display: none; }
+  .reset-button {
+    display: block;
+    min-height: 40px;
+    padding: 8px 10px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface);
+    text-decoration: none;
+    white-space: nowrap;
+  }
   .card { border-radius: 18px; padding: 22px 18px; margin: 0 auto; }
   .card-head { margin-bottom: 18px; }
   .choices { margin-top: 24px; gap: 9px; }
