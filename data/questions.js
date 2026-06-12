@@ -35,6 +35,13 @@ window.EXAM_CATALOG = [
     "status": "34문항 완성"
   },
   {
+    "id": "2022-1-final-icam",
+    "label": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "status": "36문항 완성"
+  },
+  {
     "id": "2022-2-question-only",
     "label": "22-2 기말 · 문제만 별개 시험지",
     "year": 2022,
@@ -47,6 +54,20 @@ window.EXAM_CATALOG = [
     "year": 2022,
     "term": "2학기 기말",
     "status": "34문항 완성"
+  },
+  {
+    "id": "2021-2-final-korean",
+    "label": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "status": "26문항 완성"
+  },
+  {
+    "id": "2020-2-final-unified",
+    "label": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "status": "44문항 완성"
   }
 ];
 
@@ -3913,6 +3934,618 @@ window.QUESTION_BANK = [
     "explanation": "보너스 문항"
   },
   {
+    "id": "2022-1-final-icam-001",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 1,
+    "question": "블록버스터의 비즈니스모델은 자산소유를 최소화하여 임대료와 인건비가 넷플릭스보다 경쟁력이 있었다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "블록버스터는 오프라인 점포망에 기반해 유형자산·임대료·인건비 부담이 컸다. 자산을 최소화한 쪽은 넷플릭스다"
+  },
+  {
+    "id": "2022-1-final-icam-002",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 2,
+    "question": "도매상과 문제가 발생한 회사는 제품을 유통할 창고 시설을 구축하고 자체 판매원을 고용하여 도매상을 교체하기로 결정했습니다. 이 전략을 ( )라고 합니다",
+    "choices": [
+      "수평적 통합",
+      "대체전략",
+      "모방전략",
+      "수직 통합"
+    ],
+    "answer": 3,
+    "answerText": "수직 통합",
+    "explanation": "유통 단계(도매)를 자사가 직접 흡수하는 것은 전방 수직통합이다"
+  },
+  {
+    "id": "2022-1-final-icam-003",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 3,
+    "question": "다음 중 좋은 기업 전략(Corporate strategy)이 통과해야 하는 세 가지 테스트가 아닌 것은?",
+    "choices": [
+      "인수",
+      "합작 투자",
+      "장기 계약",
+      "현물 시장 거래"
+    ],
+    "answer": 3,
+    "answerText": "현물 시장 거래",
+    "explanation": "좋은 기업전략의 세 테스트는 better-off test, ownership test, organizing test 관련 거버넌스 선택(인수·합작·장기계약 등 소유/협력 모드)을 다룬다. '현물시장 거래'는 통합이 불필요한 단순 시장거래로, 기업전략 테스트의 대상 모드가 아니다. ※ 강의에서 정의한 '세 가지 테스트'의 보기 매핑 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-004",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 4,
+    "question": "다음 중 우버, 디디, 타다 등으로 대표되는 카셰어링 서비스에 대한 Five Forces 분석과 관련이 없는 플레이어는?",
+    "choices": [
+      "위성 내비게이션 서비스 제공업체",
+      "출퇴근용 차량 공유 통근 사용자 그룹",
+      "대형 차량 렌탈 서비스",
+      "차량 리스 회사"
+    ],
+    "answer": 0,
+    "answerText": "위성 내비게이션 서비스 제공업체",
+    "explanation": "내비 서비스는 보완재 인프라일 뿐 카셰어링 산업의 5 Forces(고객·공급자·경쟁자·진입자·대체재) 주체로서의 관련성이 가장 낮다. 통근 사용자(고객), 렌탈/리스(대체·공급)는 직접 관련된다. ※ 보기 해석에 따라 논쟁 소지 — 강의자료 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-005",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 5,
+    "question": "회사가 제품에 대한 지원 서비스를 제공하기로 결정하고 고객이 추가 비용을 지불합니다. 이 서비스는 경쟁업체가 제공하지 않으며 회사는 서비스를 제공할 때 그에 상응하는 공급자 기회 비용을 발생시키지 않습니다. 이 회사는 다음 중 어느 것을 달성했습니까?",
+    "choices": [
+      "부가가치",
+      "경쟁우위 및 부가가치",
+      "경쟁우위",
+      "무제한 교섭"
+    ],
+    "answer": 0,
+    "answerText": "경쟁우위 및 부가가치",
+    "explanation": "경쟁사가 못 하는 차별적 서비스로 WTP를 올리면서(경쟁우위) SOC 증가는 없다 → 희소성으로 부가가치까지 확보. 둘 다 달성한다"
+  },
+  {
+    "id": "2022-1-final-icam-006",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 6,
+    "question": "Porter's Five Forces Framework는 다음을 제외한 모든 방식으로 산업 분석에 사용됩니다",
+    "choices": [
+      "시장 진입 여부를 결정합니다",
+      "수익 증대 기회 식별",
+      "침투할 틈새 시장을 식별합니다",
+      "주어진 산업에서 성공적으로 경쟁하는 데 중요한 무형 자산을 식별합니다"
+    ],
+    "answer": 3,
+    "answerText": "주어진 산업에서 성공적으로 경쟁하는 데 중요한 무형 자산을 식별합니다",
+    "explanation": "5 Forces는 산업 '구조' 분석 도구로, 개별 기업의 내부 무형자산(역량·자원)을 식별하지는 않는다. 나머지는 5 Forces의 용도에 부합한다"
+  },
+  {
+    "id": "2022-1-final-icam-007",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 7,
+    "question": "두 독립 회사 BU1과 BU2. BU1의 총비용 200만 달러, BU2의 최대 WTP 750만 달러이지만 경쟁시장으로 인해 결국 500만 달러를 지불. 이 거래에서 BU1이 포착한 가치(value capture)는?",
+    "choices": [
+      "$300만",
+      "$750만",
+      "$550만",
+      "$250만"
+    ],
+    "answer": 0,
+    "answerText": "$300만",
+    "explanation": "BU1의 가치포착 = 실제 받은 가격 − BU1의 비용 = 500만 − 200만 = 300만 달러. (WTP 750만 중 550만은 창출가치, 그중 BU1이 300만, BU2가 250만(=750−500)을 가져감)"
+  },
+  {
+    "id": "2022-1-final-icam-008",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 8,
+    "question": "다음 중 전략 실행과 관련이 없는 활동은?",
+    "choices": [
+      "전략 수립",
+      "자원 재할당",
+      "자산 조정",
+      "구조 재설계"
+    ],
+    "answer": 0,
+    "answerText": "전략 수립",
+    "explanation": "전략 수립(formulation)은 실행(execution) 이전 단계다. 자원 재할당·자산 조정·구조 재설계는 실행 활동이다"
+  },
+  {
+    "id": "2022-1-final-icam-009",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 9,
+    "question": "다음 중 Porter의 Five Forces Framework에서 간주되지 않는 것은?",
+    "choices": [
+      "정부",
+      "직접 경쟁자",
+      "고객",
+      "시장 진입자"
+    ],
+    "answer": 0,
+    "answerText": "정부",
+    "explanation": "5 Forces는 경쟁자·구매자(고객)·공급자·신규진입자·대체재로 구성된다. '정부'는 본래 5 Forces에 포함되지 않는다(확장 모델에서만 추가됨)"
+  },
+  {
+    "id": "2022-1-final-icam-010",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 10,
+    "question": "McDonald's는 Burger King의 가치사슬 분석을 수행하고 Burger King의 물류 및 투입재 조달이 자체보다 비용이 적게 들기 때문에 Burger King이 더 높은 이윤을 달성할 수 있음을 발견했습니다. 이것은 ( )을 하는 예입니다",
+    "choices": [
+      "각 활동에 대한 비용 동인(cost driver) 식별",
+      "지원 활동(supportive activities)을 분석",
+      "기본 활동(primary activities)을 분석",
+      "경쟁사의 가격 분석"
+    ],
+    "answer": 0,
+    "answerText": "각 활동에 대한 비용 동인(cost driver) 식별",
+    "explanation": "물류·조달이라는 특정 활동에서 비용 차이의 원인을 짚은 것이므로 비용 동인 식별의 예다. (23-1 중간 23번과 동일 논리)"
+  },
+  {
+    "id": "2022-1-final-icam-011",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 11,
+    "question": "어떤 종류의 기회가 전략적 변화를 실행하려는 시도를 촉발합니까?",
+    "choices": [
+      "기회 격차(opportunity gap)",
+      "성과 격차(performance gap)",
+      "성과와 기회 격차 모두",
+      "리더십 격차(leadership gap)"
+    ],
+    "answer": 2,
+    "answerText": "성과와 기회 격차 모두",
+    "explanation": "성과 격차(목표 대비 실제 부족)와 기회 격차(달성가능치 대비 목표 부족) 모두 전략적 변화의 촉매가 된다"
+  },
+  {
+    "id": "2022-1-final-icam-012",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 12,
+    "question": "XYZ 회사는 장거리 고속도로에서 휴게소를 운영합니다. 장거리 트럭 운전사에게 프리미엄 서비스를 제공합니다. 저렴한 가격의 경쟁업체가 많지만 고품질 서비스로 안목 있는 고객의 요구를 충족합니다. 따라서 XYZ 회사는 ( ) 가진 회사로 특징지을 수 있습니다",
+    "choices": [
+      "일반적인 트럭 운전사의 요구를 충족시키는 틈새 고객 및 비즈니스 모델",
+      "품질, 서비스 및 가치를 요구하는 가격에 민감한 틈새 시장에 대한 좁은 시장 매력",
+      "차별화에 기반한 가치 제안과 부가가치를 위해 기꺼이 지불할 의향이 있는 틈새 고객을",
+      "광범위한 대상 범위와 대중을 대상으로 하는 가격대를"
+    ],
+    "answer": 2,
+    "answerText": "차별화에 기반한 가치 제안과 부가가치를 위해 기꺼이 지불할 의향이 있는 틈새 고객을",
+    "explanation": "고품질·프리미엄으로 더 높은 WTP를 가진 안목 있는 틈새 고객을 공략하는 차별화 포지셔닝이다"
+  },
+  {
+    "id": "2022-1-final-icam-013",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 13,
+    "question": "구매자가 협상력을 높이는 한 가지 방법은 단일 제품을 대량으로 구매하는 것입니다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "대량 집중 구매는 구매자의 교섭력을 높인다"
+  },
+  {
+    "id": "2022-1-final-icam-014",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 14,
+    "question": "다음 중 Toyota가 공급업체와 장기적인 관계를 유지하는 이유에 대한 설명으로 옳지 않은 것은?",
+    "choices": [
+      "그들은 품질을 향상시키기 위해 빈번한 의사 소통을 촉진합니다",
+      "위 모든 답이 맞습니다",
+      "공급업체는 자산별 프로세스 개선에 더 기꺼이 투자합니다",
+      "지속적인 관계는 학습을 촉진합니다"
+    ],
+    "answer": 1,
+    "answerText": "위 모든 답이 맞습니다",
+    "explanation": "※ 나머지 세 보기(품질 위한 잦은 소통, 관계특화 투자 유인, 학습 촉진)는 모두 장기관계의 타당한 이유다. 질문이 \"옳지 않은 것\"을 묻는데 세 보기가 모두 옳으므로, \"위 모든 답이 맞습니다\"가 (옳지 않은 것을 고르라는 맥락에서) 정답으로 선택된다. 출제 의도상 강의자료 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-015",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 15,
+    "question": "Tesla가 최초의 고급 전기차를 고가에 출시했다면, BMW는 i3를 출시하여 더 저렴하고 합리적인 가격에 럭셔리를 제공함으로써 고급 전기차 시장에 진입했습니다. Tesla는 최적의 포지셔닝을 위해 1) 가격을 낮추어 BMW를 몰아내거나 2) 높은 가격을 유지하여 해당 시장 부문을 보호하고 BMW가 시장의 다른 부문을 확보할 수 있도록 합니다. Tesla가 이 상황을 평가하는 방법은 다음 중 어떠한 개념이 가장 잘 반영합니까?",
+    "choices": [
+      "상호 의존성(interdependence)",
+      "경쟁전략(competitive strategy)",
+      "게임 이론(game theory)",
+      "협력적 경쟁(co-opetition)"
+    ],
+    "answer": 2,
+    "answerText": "게임 이론(game theory)",
+    "explanation": "경쟁자(BMW)의 대응을 예상하고 자신의 최적 수(가격 인하 vs 유지)를 선택하는 상호작용적 의사결정은 게임이론의 전형이다"
+  },
+  {
+    "id": "2022-1-final-icam-016",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 16,
+    "question": "기업이 합리성을 무시하고 다른 기업에 대해 복수심에 불타는 반응을 보일 때 이것은 다음과 같은 예입니다",
+    "choices": [
+      "지배적 전략",
+      "제한된 합리성",
+      "도구적 의사결정",
+      "감정적 의사결정"
+    ],
+    "answer": 3,
+    "answerText": "감정적 의사결정",
+    "explanation": "합리성을 벗어나 복수심(감정)에 따라 행동하는 것은 감정적 의사결정(emotions in game theory)의 예다"
+  },
+  {
+    "id": "2022-1-final-icam-017",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 17,
+    "question": "계약의 불완전성(incompleteness)이 존재하는 이유는?",
+    "choices": [
+      "위의 모두 다",
+      "자산특수성(asset specificity)",
+      "불확실성(uncertainty)",
+      "계약 불이행시 법률적 집행의 비용과 시간(litigation cost)"
+    ],
+    "answer": 0,
+    "answerText": "위의 모두 다",
+    "explanation": "자산특수성·불확실성·소송비용 모두 완전한 계약을 불가능하게 만드는 요인이다"
+  },
+  {
+    "id": "2022-1-final-icam-018",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 18,
+    "question": "다음 중 인수합병 전략의 사실과 다른 것은?",
+    "choices": [
+      "긍정적인 시너지가 있는 경우가 프리미엄을 지불하는 중요한 이유이다",
+      "경영자들은 인수합병 이후에 가치 포획(Value capture)에 대해서 대체로 부정적이다",
+      "인수합병시 프리미엄을 높게 지불하는 경우가 많다",
+      "인수합병시 복수의 인수기업이 경합을 벌여서 프리미엄이 올라가는 경우가 있다"
+    ],
+    "answer": 1,
+    "answerText": "경영자들은 인수합병 이후에 가치 포획(Value capture)에 대해서 대체로 부정적이다",
+    "explanation": "※ 경영자들은 대체로 인수 후 가치포착에 '낙관적(과신)'인 경향이 있어 높은 프리미엄을 지불한다. \"대체로 부정적\"이라는 서술이 사실과 다르다. 나머지(시너지가 프리미엄 이유, 높은 프리미엄, 경합으로 프리미엄 상승)는 사실이다"
+  },
+  {
+    "id": "2022-1-final-icam-019",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 19,
+    "question": "항공사와 연료 공급업체의 장기 계약은 항공사가 경쟁업체보다 잠재적인 경쟁 우위를 확보하기 위해 연료 투입 가격을 헤지하기 때문에 일종의 전략적 상호 작용입니다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "연료 가격 헤지를 위한 공급업체와의 장기계약은 거래비용·위험관리(거버넌스 선택) 문제이지 경쟁사와의 '전략적 상호작용(competitive interaction)'이 아니다. ※ 강의 정의 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-020",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 20,
+    "question": "기업이 동시에 경쟁하고 협력할 때 가치를 창출하는 동시에 가치를 포착할 수는 없습니다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "co-opetition(협력적 경쟁)에서는 협력으로 가치를 창출하면서 동시에 경쟁으로 가치를 포착할 수 있다"
+  },
+  {
+    "id": "2022-1-final-icam-021",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 21,
+    "question": "택시산업은 전통적으로 수익성이 낮다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "※ 면허(메달리온) 규제로 진입이 제한된 전통 택시산업은 오히려 수익성·면허가치가 높았다(우버 등장 전). \"수익성이 낮다\"는 일반적으로 거짓으로 처리된다. 강의 맥락 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-022",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 22,
+    "question": "택시산업은 가격 통제가 거의 되지 않는다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "전통 택시산업은 면허·요금 규제로 가격이 강하게 통제된다"
+  },
+  {
+    "id": "2022-1-final-icam-023",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 23,
+    "question": "우버의 가치혁신에 대한 정확한 표현은?",
+    "choices": [
+      "기존 택시보다 WTP가 높아지고 SOC도 높아졌다",
+      "기존 택시보다 SOC가 높아졌다",
+      "기존 택시보다 WTP가 낮아졌다",
+      "기존 택시보다 SOC는 높아졌지만 WTP는 낮아졌다"
+    ],
+    "answer": 0,
+    "answerText": "기존 택시보다 WTP가 높아지고 SOC도 높아졌다",
+    "explanation": "우버는 편의성·접근성으로 고객 WTP를 높였고, 동시에 유연한 공급(기사 기회비용 반영)으로 SOC도 변화시켰다. WTP 상승을 핵심으로 하는 가치혁신이다. ※ 강의에서 제시한 우버 value stick 해석 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-024",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 24,
+    "question": "다음 중 우버 중국전략과 가장 관계가 없는 기업은?",
+    "choices": [
+      "애플",
+      "텐센트",
+      "알리바바",
+      "테슬라"
+    ],
+    "answer": 3,
+    "answerText": "테슬라",
+    "explanation": "우버의 중국 사업에는 텐센트·알리바바(디디 투자·결제 생태계), 애플(디디에 10억 달러 투자) 등이 관련됐다. 테슬라는 관련성이 가장 낮다"
+  },
+  {
+    "id": "2022-1-final-icam-025",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 25,
+    "question": "탄소배출량이 제로(0)가 되는 상태를 탄소제로(Carbon Neutrality, Net Zero)라고 하고 2050년까지 달성하자는 데 세계 70여 개국이 합의하였다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "다수 국가가 2050 넷제로 목표에 동참한 것은 사실에 부합한다"
+  },
+  {
+    "id": "2022-1-final-icam-026",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 26,
+    "question": "기존의 화력과 원자력에 기반한 발전은 초기투자비가 높고 Cost-plus 방식으로 운영되었다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "전통 화력·원자력 발전은 대규모 초기투자와 원가가산(cost-plus) 요금 방식으로 운영되었다"
+  },
+  {
+    "id": "2022-1-final-icam-027",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 27,
+    "question": "교토의정서에서 1997년, 세계 192개국은 석탄원료를 통한 전력생산을 줄이고 궁극적으로 없애자는 데 합의하려 했으나 일부 국가의 반대로 합의에 실패하였다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "※ 교토의정서는 온실가스 감축 목표에 합의·채택되었다(미국 미비준 등 한계는 있었음). \"석탄 전력 폐지 합의에 실패\"라는 서술은 사실과 다르다. 강의 사례 표현 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-028",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 28,
+    "question": "전체 온실가스배출의 25%가 전력산업에 기인하고, 이 중 석탄의 비중은 70%로 매우 높다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "전력 부문이 온실가스의 약 1/4을 차지하고 그 안에서 석탄 비중이 높다는 사실 서술에 부합한다"
+  },
+  {
+    "id": "2022-1-final-icam-029",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 29,
+    "question": "넷플릭스의 \"All you can eat\"은 고객들이 DVD 사용이 확대되자 내놓은 대응방안이었다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "무제한 구독은 사후 대응이 아니라 선제적 비즈니스 모델 혁신이다. (21-2 2번, 22-2 문제만 31번과 일관)"
+  },
+  {
+    "id": "2022-1-final-icam-030",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 30,
+    "question": "Reed Hastings가 스트리밍 서비스로 전략을 변경하자마자 고객들은 매우 긍정적인 반응을 보였다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "스트리밍 전환(및 Qwikster 분리 시도) 초기에 고객 반응은 부정적이었다. 즉각 긍정적이지 않았다. (22-2 기말 30번과 일관)"
+  },
+  {
+    "id": "2022-1-final-icam-031",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 31,
+    "question": "넷플릭스는 블록버스터와 다르게 구독료 모델을 채택하였다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "넷플릭스는 연체료 없는 월 구독료 모델로 블록버스터(건별 대여+연체료)와 차별화했다"
+  },
+  {
+    "id": "2022-1-final-icam-032",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 32,
+    "question": "넷플릭스의 고객추천 모델(recommendation system) 도입은 콘텐츠 구입비용 증가가 원인이 되었다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "추천시스템은 수요를 구작으로 분산시켜 신작 구입비 부담을 줄였다. '구입비 증가가 원인'이라는 인과는 틀리다. (23-1 중간 24번과 일관)"
+  },
+  {
+    "id": "2022-1-final-icam-033",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 33,
+    "question": "넷플릭스의 성공원인 중 하나는 \"내일 배송\"의 실험에서와 같이 고객만족을 위한 다양한 실험을 하여 방법을 찾아내는 접근법에 있다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "실험과 학습(test-and-learn) 문화가 넷플릭스 성공의 핵심이다. (23-1 중간 27번과 일관)"
+  },
+  {
+    "id": "2022-1-final-icam-034",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 34,
+    "question": "SPM의 Operational Vulnerability는 환경비용의 매출비중을 의미한다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "SPM(Sustainable Portfolio Management)의 Operational Vulnerability(운영 취약성)는 환경 관련 비용이 매출에서 차지하는 노출 정도를 가리킨다. ※ 강의 SPM 4분면 정의 대조 권장"
+  },
+  {
+    "id": "2022-1-final-icam-035",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 35,
+    "question": "SPM의 Market Alignment는 재무적 수익창출 가능성을 의미한다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "Market Alignment는 제품 포트폴리오가 지속가능성 시장 메가트렌드에 부합하는 정도를 뜻하며, 재무수익 가능성 자체를 의미하지 않는다. (22-2 기말 33번과 일관)"
+  },
+  {
+    "id": "2022-1-final-icam-036",
+    "examId": "2022-1-final-icam",
+    "exam": "22-1 기말 · 아캠 족보",
+    "year": 2022,
+    "term": "1학기 기말",
+    "number": 36,
+    "question": "SPM은 재원분배의 원칙으로서 중요하고, 기존 자원의 관리 측면에서도 중요하다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "SPM은 신규 투자(재원분배) 의사결정과 기존 포트폴리오·자원 관리 양면에서 중요한 도구다"
+  },
+  {
     "id": "2022-2-icam-marked-001",
     "examId": "2022-2-icam-marked",
     "exam": "22-2 기말 · 아캠 답표기본",
@@ -4999,5 +5632,1163 @@ window.QUESTION_BANK = [
     "answer": 0,
     "answerText": "참",
     "explanation": "인사 문항"
+  },
+  {
+    "id": "2021-2-final-korean-001",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 1,
+    "question": "VRPP 모델은 비즈니스 모델을 설명하는 방법론이다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "VRPP(Value proposition·Resources·Processes·Profit formula 등으로 비즈니스 모델을 구성요소로 설명하는 틀)는 비즈니스 모델 분석 방법론으로 다뤄진다. ※ 강의에서 쓰인 VRPP 정의 확인 권장"
+  },
+  {
+    "id": "2021-2-final-korean-002",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 2,
+    "question": "넷플릭스의 \"All you can eat\"은 고객들이 DVD 사용이 확대되자 내놓은 대응방안이었다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "무제한 구독(\"All you can eat\")은 사후 대응책이 아니라 연체료 없는 구독모델을 설계한 선제적 비즈니스 모델 혁신이었다. (22-2 문제만 31번과 일관)"
+  },
+  {
+    "id": "2021-2-final-korean-003",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 3,
+    "question": "동일 제품에 있어 아마존의 원가가 월마트보다 높다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "동일 상품에 대해 아마존의 (물류·처리) 원가가 월마트의 대규모 오프라인 유통 효율보다 높았다는 사례 서술에 부합한다. ※ 강의 사례 수치 대조 권장"
+  },
+  {
+    "id": "2021-2-final-korean-004",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 4,
+    "question": "Dan Schulman은 핀테크 산업의 경쟁 심화 와중에, Paypal의 차별적 포지셔닝을 위한 전략으로 주주의 이익을 더욱 향상하는 주주자본주의를 선택하였다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "Dan Schulman의 PayPal은 주주자본주의가 아니라 '이해관계자 자본주의(stakeholder capitalism)'·금융 포용을 차별적 포지셔닝으로 택했다"
+  },
+  {
+    "id": "2021-2-final-korean-005",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 5,
+    "question": "소매은행들은 수수료가 높은 이유로 중산층/부유층보다는 저소득층을 선호한다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "소매은행은 수익성이 높은 중산층·부유층을 선호하고 저소득층은 상대적으로 외면했다. PayPal 등 핀테크가 그 공백(저소득층)을 공략했다"
+  },
+  {
+    "id": "2021-2-final-korean-006",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 6,
+    "question": "디스커버리는 건강리스크 요인인 4개 행동(흡연, 운동부족, 과도한 음주 및 좋지 않은 식생활)에 대한 개인별 데이터를 지속적으로 확보하였으며 이는 다른 경쟁사에는 존재하지 않는 방식이었다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "개인별 행동데이터의 지속 축적은 디스커버리의 차별적 자원이다. (22-2·23-1 동일 문항과 일관)"
+  },
+  {
+    "id": "2021-2-final-korean-007",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 7,
+    "question": "전략의 목적은 산업 평균 수준의 수익을 창출하는 경쟁력을 갖추는 것이다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "전략의 목적은 '산업 평균'이 아니라 평균을 상회하는(superior) 지속가능한 수익을 창출하는 것이다"
+  },
+  {
+    "id": "2021-2-final-korean-008",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 8,
+    "question": "다음 중 전략의 환경분석과 연관성이 가장 적은 것은?",
+    "choices": [
+      "경쟁을 높고 낮게 하는 영향력에 대한 분석",
+      "회사 고유의 역량과 자원",
+      "산업 진화의 동인(driver)",
+      "산업 플레이어간의 동적 관계(dynamics)"
+    ],
+    "answer": 1,
+    "answerText": "회사 고유의 역량과 자원",
+    "explanation": "회사 고유의 역량·자원은 '내부' 분석(내부 역량 분석) 영역이다. 나머지는 모두 외부 환경(산업) 분석에 속한다"
+  },
+  {
+    "id": "2021-2-final-korean-009",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 9,
+    "question": "경쟁 우위의 개념은 ( )에 중점을 둡니다",
+    "choices": [
+      "고객이 지불할 의사가 있는 금액",
+      "기업이 제품 및/또는 서비스를 제공하는 데 드는 비용",
+      "고객이 지불할 의사가 있는 금액과 회사에서 발생하는 비용 사이의 차이를 증가시킵니다",
+      "매력적인 산업을 창출합니다"
+    ],
+    "answer": 0,
+    "answerText": "고객이 지불할 의사가 있는 금액(WTP)과 회사에서 발생하는 비용(SOC) 사이의 차이를 증가시킵니다",
+    "explanation": "경쟁우위는 WTP와 SOC의 격차(wedge)를 키우는 데 있다"
+  },
+  {
+    "id": "2021-2-final-korean-010",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 10,
+    "question": "거래의 총 가치는?",
+    "choices": [
+      "협상된 가격 + 공급자의 기회 비용",
+      "협상 가격 – 공급자의 기회 비용",
+      "지불 의향 – 공급자의 기회 비용",
+      "지불 의지 + 공급자의 기회 비용입니다"
+    ],
+    "answer": 0,
+    "answerText": "지불 의향(WTP) – 공급자의 기회 비용(SOC)",
+    "explanation": "거래의 총 창출가치 = WTP − SOC"
+  },
+  {
+    "id": "2021-2-final-korean-011",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 11,
+    "question": "ABC Company는 주로 애호가들에게 소매점에서 플라스틱 모델 자동차를 판매합니다. 더 안목 있는 구매자에게 어필할 수 있는 더 세련된 외관을 제공하기 위해 자동차의 외관을 수정하기로 결정했습니다. ABC 회사는 ( )을 변경했습니다",
+    "choices": [
+      "타겟 시장",
+      "유통 방식",
+      "비즈니스 모델",
+      "공급망"
+    ],
+    "answer": 0,
+    "answerText": "타겟 시장",
+    "explanation": "더 안목 있는 구매자(다른 고객층)에게 어필하기 위해 제품을 수정한 것은 표적 시장(who)의 변경이다"
+  },
+  {
+    "id": "2021-2-final-korean-012",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 12,
+    "question": "미션이나 비전 선언문에서 \"최고가 되는 것\"과 같은 문구를 사용하면 경쟁업체와 차별화되는 명확한 메시지를 전달합니다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "\"최고가 되자\"는 누구나 내세우는 일반적 문구라 경쟁사와 차별화되는 명확한 메시지를 주지 못한다"
+  },
+  {
+    "id": "2021-2-final-korean-013",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 13,
+    "question": "Porter의 Five Forces Framework는 다음 중 어느 것을 제안합니까?",
+    "choices": [
+      "관리자의 기업가적 능력은 업계에서 성공적으로 경쟁하기 위한 핵심 요구 사항입니다",
+      "전환 비용은 구매자보다 공급자가 더 낮습니다",
+      "기업은 환경적 요인에 관계없이 자신의 강점을 활용하여 경쟁 우위를 확보할 수 있습니다",
+      "공급업체의 기술 변화는 핵심 산업 내 경쟁 환경을 변화시킬 수 있습니다"
+    ],
+    "answer": 3,
+    "answerText": "공급업체의 기술 변화는 핵심 산업 내 경쟁 환경을 변화시킬 수 있습니다",
+    "explanation": "5 Forces는 산업 구조(공급자 등)가 경쟁환경을 좌우함을 시사한다. (23-1 중간 16번과 동일 논리)"
+  },
+  {
+    "id": "2021-2-final-korean-014",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 14,
+    "question": "미션과 미션 선언문은 ( ) 이어야 합니다",
+    "choices": [
+      "동기 부여",
+      "전략적",
+      "공유 가치를 기반으로 합니다",
+      "위의 모든 것"
+    ],
+    "answer": 3,
+    "answerText": "위의 모든 것",
+    "explanation": "좋은 미션 선언문은 동기부여적이고, 전략적이며, 공유가치에 기반해야 한다"
+  },
+  {
+    "id": "2021-2-final-korean-015",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 15,
+    "question": "글로벌 확장에서 가치를 창출하고 포착하기 위해 조직은 다음과 같은 글로벌 전략이 필요합니다. 가장 적합한 것은?",
+    "choices": [
+      "지리적 시장의 차이를 무시합니다",
+      "경쟁하는 국가 또는 경제 지역에서 발생하는 비용을 최소화합니다",
+      "새로운 국가 또는 지역에서 조직의 국내 시장 경쟁 우위를 활용하거나 구축합니다",
+      "조직의 국내 시장과 동일한 지리적 시장에만 진입합니다"
+    ],
+    "answer": 2,
+    "answerText": "새로운 국가 또는 지역에서 조직의 국내 시장 경쟁 우위를 활용하거나 구축합니다",
+    "explanation": "글로벌 전략의 핵심은 본국에서 구축한 경쟁우위를 해외에서 활용(leverage)하거나 새로 구축하는 것이다"
+  },
+  {
+    "id": "2021-2-final-korean-016",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 16,
+    "question": "두 독립 회사 BU1과 BU2. 현물시장 거래 시 BU1의 총비용 200만 달러, BU2의 WTP 750만 달러. 이후 독점 장기계약 체결로 BU1 총비용은 150만 달러로 감소, 제품 품질 향상으로 BU2의 WTP는 900만 달러로 증가. 전속계약으로 인한 시너지는?",
+    "choices": [
+      "750만 달러",
+      "200만 달러",
+      "600만 달러",
+      "300만 달러"
+    ],
+    "answer": 1,
+    "answerText": "200만 달러",
+    "explanation": "시너지 = 계약 후 가치창출 − 계약 전 가치창출. 계약 전 = WTP 750 − 비용 200 = 550만. 계약 후 = WTP 900 − 비용 150 = 750만. 시너지 = 750 − 550 = 200만 달러. (= WTP 증가분 +150 + 비용 감소분 +50)"
+  },
+  {
+    "id": "2021-2-final-korean-017",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 17,
+    "question": "다음 중 산업분석에서 제시하지 않은 것은?",
+    "choices": [
+      "단위당 비용은 일반적으로 생산량이 증가함에 따라 감소합니다",
+      "네트워크 효과는 스타트업만의 문제입니다",
+      "정답이 없습니다",
+      "Microsoft Windows 사용자는 Apple 컴퓨터를 사용하기 시작할 때 전환 비용에 직면합니다"
+    ],
+    "answer": 1,
+    "answerText": "네트워크 효과는 스타트업만의 문제입니다",
+    "explanation": "네트워크 효과는 스타트업만의 문제가 아니라 산업 전반(특히 플랫폼 대기업)에 작동하는 힘이다. 따라서 산업분석이 '제시하지 않는' 잘못된 서술이다"
+  },
+  {
+    "id": "2021-2-final-korean-018",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 18,
+    "question": "부정적인 시너지를 창출하는 기업 전략은 가치를 파괴합니다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "음(−)의 시너지를 내는 기업전략(잘못된 다각화·M&A 등)은 가치를 파괴한다"
+  },
+  {
+    "id": "2021-2-final-korean-019",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 19,
+    "question": "성공적인 ( ) 전략은 조직이 보고 구조와 관리 인센티브를 신중하게 조정하여 지역 혁신이 식별 및 개발되고 글로벌 성공의 잠재력이 본부에 명확하게 전달되도록 해야 합니다",
+    "choices": [
+      "개발(developing)",
+      "세계화(globalization)",
+      "현지화(localization)",
+      "심화(deepening)"
+    ],
+    "answer": 0,
+    "answerText": "개발(developing)",
+    "explanation": "지역(현지) 혁신을 식별·개발하여 본부로 전달하고 글로벌 잠재력으로 키우는 것은 development(개발) 전략에 해당한다"
+  },
+  {
+    "id": "2021-2-final-korean-020",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 20,
+    "question": "가치 포착(Value capture)에 대한 다음의 서술 중 맞는 것은? A) 경제적 파이를 더 크게 만들기 / B) 경제적 파이의 분할이 기업에게 공정한 몫 또는 그 이상을 제공하도록 하는 것 / C) 희소한 제품 또는 서비스 가치의 제공이 수반",
+    "choices": [
+      "B와 C만",
+      "B만",
+      "A와 B만",
+      "A만"
+    ],
+    "answer": 0,
+    "answerText": "B와 C만",
+    "explanation": "가치포착은 파이를 키우는 것(A=가치창출)이 아니라, ① 파이 분할에서 공정한 몫 이상을 확보(B)하고 ② 희소성 있는 가치 제공(C)을 통해 이루어진다. A는 가치창출이므로 제외"
+  },
+  {
+    "id": "2021-2-final-korean-021",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 21,
+    "question": "다음 중 가치 제언(value proposition)의 예는 무엇입니까?",
+    "choices": [
+      "카페테리아는 저렴한 뷔페를 제공합니다",
+      "청소 서비스가 지역의 공립학교를 대상으로 합니다",
+      "제조업체가 대형 조직에 판매할 진열 케이스를 생산합니다",
+      "지역 소매업체가 8세에서 12세 사이의 소년용 상품을 취급합니다"
+    ],
+    "answer": 0,
+    "answerText": "카페테리아는 저렴한 뷔페를 제공합니다",
+    "explanation": "가치제언은 고객에게 제공하는 편익(what/how)을 담아야 한다. '저렴한 뷔페'만이 제공 가치를 명시한다. 나머지는 대상고객(who)만 규정. (23-1 중간 9번과 동일 논리)"
+  },
+  {
+    "id": "2021-2-final-korean-022",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 22,
+    "question": "소유권 테스트(ownership test)는 회사가 거래에 특정한 자산을 소유해야 하는지 여부에 대한 질문을 다룹니다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 0,
+    "answerText": "참",
+    "explanation": "소유권 테스트의 정의 그대로다. (23-1 기말 11번과 일관)"
+  },
+  {
+    "id": "2021-2-final-korean-023",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 23,
+    "question": "학습 곡선 효과는 서비스 산업보다 제조 산업에서 더 중요할 가능성이 높습니다",
+    "choices": [
+      "참",
+      "거짓"
+    ],
+    "answer": 1,
+    "answerText": "거짓",
+    "explanation": "※ 학습곡선 효과는 제조뿐 아니라 서비스 산업에서도 중요하다(노동집약·반복학습이 있는 서비스에서 특히). 제조에서 '더' 중요하다고 단정하는 서술은 일반적으로 거짓으로 처리된다. 강의자료 대조 권장"
+  },
+  {
+    "id": "2021-2-final-korean-024",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 24,
+    "question": "다음 중 제휴 또는 합작 투자가 제기할 수 있는 문제는? (A) 파트너는 다른 목표와 우선 순위 / (B) 한 파트너가 다른 파트너의 노하우를 흡수하여 경쟁자가 됨 / (C) 신흥 시장 확장 시 포기 경향",
+    "choices": [
+      "A",
+      "C",
+      "B",
+      "A 및 B"
+    ],
+    "answer": 0,
+    "answerText": "A 및 B",
+    "explanation": "제휴의 전형적 위험은 ① 목표·우선순위 불일치(A), ② 비대칭 학습(B)이다. C는 일반적 제휴 위험이 아니다. (23-1 기말 7번과 일관)"
+  },
+  {
+    "id": "2021-2-final-korean-025",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 25,
+    "question": "WTP와 SOC의 관계에 대한 다음의 서술 중 옳지 않은 것은?",
+    "choices": [
+      "WTP와 SOC 차이를 기업의 경쟁력이라고 정의한다",
+      "WTP와 SOC를 동시에 만족시키는 경우는 없다",
+      "WTP를 높이면, 다른 조건이 같다면, 가격을 높일 수 있는 가능성이 높아진다",
+      "WTP를 높이는 것은 SOC 증대를 수반하는 경우가 많다"
+    ],
+    "answer": 1,
+    "answerText": "WTP와 SOC를 동시에 만족시키는 경우는 없다",
+    "explanation": "WTP를 높이면서 동시에 SOC를 낮추는 '이중우위(dual advantage)'가 실제로 존재한다(예: 싱가포르항공). 따라서 \"동시에 만족시키는 경우는 없다\"가 옳지 않은 서술이다"
+  },
+  {
+    "id": "2021-2-final-korean-026",
+    "examId": "2021-2-final-korean",
+    "exam": "21-2 기말 · 한글",
+    "year": 2021,
+    "term": "2학기 기말",
+    "number": 26,
+    "question": "Boeing으로부터 항공기 공동구매를 하면서 United와 American의 두 회사는 각각 구매원가를 낮추는 협력적 결과를 얻을 수 있었다. 이는 다음의 어떠한 협력과 경쟁전략에 해당하는가?",
+    "choices": [
+      "value capture - competitive",
+      "value creation - competitive",
+      "value creation - cooperative",
+      "value capture - cooperative"
+    ],
+    "answer": 2,
+    "answerText": "value creation - cooperative",
+    "explanation": "공동구매로 비용을 함께 낮춰 전체 파이를 키운 것은 '가치창출(value creation)'이며, 경쟁사 간 협력이므로 'cooperative'이다. -e"
+  },
+  {
+    "id": "2020-2-final-unified-001",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 1,
+    "question": "If the innovator could look for ways to communicate with Newbie (the new entrant) through signalling or collusion (assuming no legal problems) to protect the high prices the fishermen have always accepted, the innovator can increase both market share and profitability",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "시장점유율(MS)과 수익성을 '동시에' 높일 수는 없다 — 가격을 지키면 점유율을 양보하고, 점유율을 지키면 가격을 양보해야 하는 상충 관계다"
+  },
+  {
+    "id": "2020-2-final-unified-002",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 2,
+    "question": "Intra-industry profitability varies due to industry structure differences",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "같은 산업 내에서도 기업별 포지션·구조 차이에 따라 수익성이 달라진다"
+  },
+  {
+    "id": "2020-2-final-unified-003",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 3,
+    "question": "Added value is \"the size of pie (you are in the game) MINUS the size of pie (you are out of the game)\"",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "부가가치의 정의식 그대로다. 내가 게임에 있을 때와 없을 때의 전체 파이 차이"
+  },
+  {
+    "id": "2020-2-final-unified-004",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 4,
+    "question": "Milton Friedman argument that \"There is one and only one social responsibility of business—to use its resources and engage in activities designed to increase its profit so long as it stays within the rules of game\" is not challenged by stakeholder view of the firm",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "프리드먼의 주주가치론과 이해관계자 이론은 서로 대립하는 개념이다"
+  },
+  {
+    "id": "2020-2-final-unified-005",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 5,
+    "question": "Competitive advantage is the sequence of activities or discrete economic functions a company performs to design, product, sell, deliver and support its products",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "이 서술은 '가치사슬(Value chain)'의 정의다. 경쟁우위의 정의가 아니다"
+  },
+  {
+    "id": "2020-2-final-unified-006",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 6,
+    "question": "The firm's position in business landscape shapes the business model",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "외부 환경에서의 포지션이 비즈니스 모델(선택의 집합)을 규정한다"
+  },
+  {
+    "id": "2020-2-final-unified-007",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 7,
+    "question": "Innovator-woodcutter-sailmaker cooperating on the outrigger led to exclusive agreements that made \"the more outrigger sales, the more special timber and the more sails repairs revenues\" possible",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "어촌 사례에서 보완적 참여자들의 협력이 선순환(상호 매출 증대)을 만든 co-opetition의 예다"
+  },
+  {
+    "id": "2020-2-final-unified-008",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 8,
+    "question": "Southwest had a better connection to different cities than rival airlines because of the centralized \"hub-and-spoke\" logistics system",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "사우스웨스트는 허브앤스포크가 아니라 '포인트투포인트(point-to-point)' 방식을 썼다. 따라서 \"중앙집중식 허브앤스포크 덕분에 연결이 좋았다\"는 서술은 틀리다"
+  },
+  {
+    "id": "2020-2-final-unified-009",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 9,
+    "question": "Collins and Porras argued that \"the fundamental defining characteristics of the most enduring and successful companies is that they preserve a cherished core ideology while simultaneously stimulating progress and change in everything that is not part of their core ideology\"",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "콜린스·포라스의 \"핵심 이데올로기 보존 + 그 외 모든 것의 진보 자극\" 명제 그대로다"
+  },
+  {
+    "id": "2020-2-final-unified-010",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 10,
+    "question": "Information asymmetry and lemons problems are important post-acquisitions surprises",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "정보 비대칭·레몬 문제는 인수 후 드러나는 예상치 못한 문제의 주요 원인이다"
+  },
+  {
+    "id": "2020-2-final-unified-011",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 11,
+    "question": "IKEA's large stores, location and low price, each of these decisions was made in a way of making the other easier to execute thus reduces overall cost",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "활동들이 서로를 강화(fit)하여 전체 비용을 낮추는 IKEA의 활동시스템을 옳게 설명한다"
+  },
+  {
+    "id": "2020-2-final-unified-012",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 12,
+    "question": "Walmart charged a slightly higher price than the rival retailers for its higher quality products",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "월마트의 핵심은 'Everyday Low Price' — 경쟁사보다 '낮은' 가격이 포지셔닝이다. 고품질 고가가 아니다"
+  },
+  {
+    "id": "2020-2-final-unified-013",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 13,
+    "question": "Strategy process works effectively when strategy formation and execution as two separate process",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "전략 수립과 실행은 분리된 별개 과정이 아니라 상호 보완적·반복적으로 작동할 때 효과적이다"
+  },
+  {
+    "id": "2020-2-final-unified-014",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 14,
+    "question": "People criticized that Walmart worsened the poverty in some rural areas",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "월마트가 일부 농촌 지역의 지역 상권을 잠식해 빈곤을 악화시켰다는 비판이 실제로 제기되었다"
+  },
+  {
+    "id": "2020-2-final-unified-015",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 15,
+    "question": "Strategic positioning idea is about how to carve out a position by aligning internal and external fronts altogether",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "전략적 포지셔닝은 내부(활동·역량)와 외부(시장)를 함께 정렬해 독자적 위치를 개척하는 것이다"
+  },
+  {
+    "id": "2020-2-final-unified-016",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 16,
+    "question": "Southwest airline's unique value proposition was pivotal in its success in otherwise not so profitable airline industry",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "매력도 낮은 항공산업에서 사우스웨스트의 독자적 가치제언이 성공의 결정적 요인이었다"
+  },
+  {
+    "id": "2020-2-final-unified-017",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 17,
+    "question": "If a firm doesn't have a plan for dealing with market participants who want a share of profit, the firm does not have a strategy",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "이익을 나눠 가지려는 참여자(공급자·구매자·경쟁자 등)에 대한 대응 계획(가치포착)이 없으면 전략이라 할 수 없다"
+  },
+  {
+    "id": "2020-2-final-unified-018",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 18,
+    "question": "Aligning organizational structures, processes and capabilities to sustain competitive advantage is the idea of strategy formulation",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "구조·프로세스·역량을 정렬해 우위를 '유지'하는 것은 전략 수립(formulation)이 아니라 전략 '실행(execution)'의 개념이다"
+  },
+  {
+    "id": "2020-2-final-unified-019",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 19,
+    "question": "Monitoring and evaluation of unfamiliar operations increases the cost of vertical integration",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "익숙하지 않은 사업의 감시·평가 부담은 수직통합의 비용(관리비용)을 증가시킨다"
+  },
+  {
+    "id": "2020-2-final-unified-020",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 20,
+    "question": "Inertia builds up because of the previous success",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "과거의 성공이 관성(inertia)을 키워 변화에 대한 저항을 낳는다"
+  },
+  {
+    "id": "2020-2-final-unified-021",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 21,
+    "question": "That IKEA's Kivik sofas and Billy bookcases are offered in 46 countries in the same way shows an example of development strategy",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "동일 제품을 여러 국가에 '동일하게' 전개하는 것은 development가 아니라 deployment(전개) 전략의 예다"
+  },
+  {
+    "id": "2020-2-final-unified-022",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 22,
+    "question": "The market shares, product diversity and use of preservatives are the key cost drivers for outbound logistics in Canadian snack cake market",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "캐나다 스낵케이크 시장에서 시장점유율·제품다양성·방부제 사용이 아웃바운드 물류의 핵심 비용 동인이다. 제품다양성이 낮아지고 방부제 사용이 늘수록 물류비가 달라진다"
+  },
+  {
+    "id": "2020-2-final-unified-023",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 23,
+    "question": "Walmart had a friendly relationship with its labor unions",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "월마트는 노조에 적대적인(무노조 지향) 관계로 잘 알려져 있다"
+  },
+  {
+    "id": "2020-2-final-unified-024",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 24,
+    "question": "United Airlines and American Airlines compete on many same routes but purchase aircrafts together thus reducing costs is a good example of competitive interactions",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "경쟁사 간 항공기 공동구매는 '경쟁적' 상호작용이 아니라 '협력(cooperation)'의 예다"
+  },
+  {
+    "id": "2020-2-final-unified-025",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 25,
+    "question": "Value capture concept asks \"how big is the pie?\"",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "\"파이가 얼마나 큰가\"는 가치 '창출(creation)' 개념이다. 가치 '포착'은 \"파이를 어떻게 나누는가\"이다"
+  },
+  {
+    "id": "2020-2-final-unified-026",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 26,
+    "question": "Michael Porter's player analysis framework includes the player's current strategy and capabilities and future goals and assumptions",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "경쟁자 분석 프레임워크는 현재 전략·역량과 미래 목표·가정(assumptions)을 모두 포함한다"
+  },
+  {
+    "id": "2020-2-final-unified-027",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 27,
+    "question": "A quantified shortfall between actual results and targeted results is performance gap",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "성과 격차(performance gap) = 실제 결과와 목표치의 차이. (참고: 기회 격차(opportunity gap) = 목표치와 달성가능치의 차이)"
+  },
+  {
+    "id": "2020-2-final-unified-028",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 28,
+    "question": "Assumptions of rationality in game theory are always well observed in actual business decisions",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "게임이론의 합리성 가정이 실제 비즈니스 의사결정에서 '항상(always)' 잘 관찰되는 것은 아니다 — 감정·제한된 합리성 등으로 자주 위배된다"
+  },
+  {
+    "id": "2020-2-final-unified-029",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 29,
+    "question": "WTP is the minimum amount of money a customer is willing to pay in order to obtain the product or service",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "WTP는 고객이 지불할 의향이 있는 '최대(maximum)' 금액이다"
+  },
+  {
+    "id": "2020-2-final-unified-030",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 30,
+    "question": "Walmart was more successful in the e-commerce retailing over other rivals such as Amazon",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "전자상거래에서는 아마존이 우위였고 월마트는 뒤처졌다"
+  },
+  {
+    "id": "2020-2-final-unified-031",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 31,
+    "question": "Apple's platform strategy in the PC industry was cooperative because it involved many outside third party developers",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "PC 시절 Apple은 폐쇄형(closed) 전략이었다. 외부 개발자 개방으로 협력적이었던 쪽은 Wintel이다"
+  },
+  {
+    "id": "2020-2-final-unified-032",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 32,
+    "question": "If buyers are more concentrated, the bargaining power of buyers will increase over the industry that they buy from",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "구매자가 집중(소수)될수록 구매자의 교섭력이 커진다"
+  },
+  {
+    "id": "2020-2-final-unified-033",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 33,
+    "question": "In the early 20th century, large scale investments became possible and profitable, then companies sought to grow bigger to enjoy \"economies of scale\" and \"economies of scope\"",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "20세기 초 대규모 투자가 가능·수익화되며 규모·범위의 경제를 위한 대형화가 일어났다"
+  },
+  {
+    "id": "2020-2-final-unified-034",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 34,
+    "question": "In the fishing village case, the innovator changed the players' value created and captured substantially",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "어촌 사례에서 혁신가가 참여자들의 가치창출·포착 구조를 크게 바꿨다"
+  },
+  {
+    "id": "2020-2-final-unified-035",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 35,
+    "question": "Singapore airline is not a good example of dual advantage",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "싱가포르항공은 WTP를 높이면서 SOC를 낮춘 '이중우위(dual advantage)'의 좋은 예다. \"좋은 예가 아니다\"는 틀리다"
+  },
+  {
+    "id": "2020-2-final-unified-036",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 36,
+    "question": "Business schools became popular because they educate strategic thinkers, not functional administrators",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "비즈니스스쿨은 기능적 관리자가 아니라 전략적 사고를 하는 인재를 기른다는 점에서 인기를 얻었다"
+  },
+  {
+    "id": "2020-2-final-unified-037",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 37,
+    "question": "value creation = WTP − SOC",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "가치창출의 정의식 그대로다"
+  },
+  {
+    "id": "2020-2-final-unified-038",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 38,
+    "question": "Operating margins of publicly traded US firms (1990-2011) show not much difference between domestic and globalized firms",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "answerText": "False",
+    "explanation": "글로벌화 정도에 따라 영업이익률에 유의한 차이가 있다(글로벌 기업은 추가적 위험부담을 진다). \"차이가 거의 없다\"는 틀리다"
+  },
+  {
+    "id": "2020-2-final-unified-039",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 39,
+    "question": "The better-off test is about \"when deciding whether to own a set of assets, a firm should have reason to believe that ownership will enable it to create value by deploying these assets in ways that would be impossible or very costly to implement if it did not own them\"",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "better-off test(개선 테스트)의 정의 그대로다 — 소유함으로써만 가능한 가치창출이 있어야 소유가 정당화된다"
+  },
+  {
+    "id": "2020-2-final-unified-040",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 40,
+    "question": "Institutional voids can lead to the choices for ownership mode over spot transactions",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "answerText": "True",
+    "explanation": "제도적 공백(institutional voids)이 있으면 시장거래보다 소유(수직통합·인수)가 유리해진다"
+  },
+  {
+    "id": "2020-2-final-unified-041",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 41,
+    "question": "Which of the below is an incorrect statement on LinkedIn's strategy? (배점 5)",
+    "choices": [
+      "LinkedIn is not so successful in keeping the users on the site with attractive applications",
+      "LinkedIn's P/E ratio is above 800",
+      "LinkedIn's main method of attracting members is viral marketing",
+      "LinkedIn's largest revenue source is premium membership"
+    ],
+    "answer": 0,
+    "answerText": "LinkedIn is not so successful in keeping the users on the site with attractive applications",
+    "explanation": "LinkedIn은 애플리케이션을 통해 사용자 유지에 '성공적'이었다(22-2 기말 28번과 일관). 따라서 \"성공적이지 못했다\"가 틀린 서술이다. 나머지(높은 P/E, 바이럴 마케팅, 프리미엄 멤버십이 최대 수익원)는 사실이다"
+  },
+  {
+    "id": "2020-2-final-unified-042",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 42,
+    "question": "Which is the correct statement on Cafe Coffee Day (CCD)? (배점 5)",
+    "choices": [
+      "CCD formed a joint venture with Tata in order to defend itself from Starbuck's entry",
+      "Average revenue per store of CCD was quite low ($240/day)",
+      "CCD's price was almost equal to Starbucks",
+      "CCD showed a low turnover of employees"
+    ],
+    "answer": 1,
+    "answerText": "Average revenue per store of CCD was quite low ($240/day)",
+    "explanation": "CCD의 점포당 평균 매출은 하루 약 $240로 낮은 편이었다는 것이 맞는 서술이다. 스타벅스 방어용 Tata 합작(X), 스타벅스와 거의 동일한 가격(X — CCD가 더 저렴), 낮은 이직률(X — 이직률 높음)은 모두 틀리다"
+  },
+  {
+    "id": "2020-2-final-unified-043",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 43,
+    "question": "Which is an incorrect statement on Cafe Coffee Day? (배점 5)",
+    "choices": [
+      "CCD is targeting middle aged people (30-50 yrs) from middle, upper-middle class",
+      "\"a place between home and work\" is the positioning",
+      "Its stores are usually 800-1000 sq ft, bright red logo, \"a lot can happen here\"",
+      "CCD was challenged by Starbuck's entry into Indian market"
+    ],
+    "answer": 0,
+    "answerText": "CCD is targeting middle aged people (30-50 yrs) from middle, upper-middle class",
+    "explanation": "CCD의 타깃은 중장년층이 아니라 '젊은 층(youth)'이다. 따라서 이 서술이 틀리다. 나머지(집과 직장 사이 공간 포지셔닝, 매장 규모·빨간 로고·슬로건, 스타벅스 진입 도전)는 사실이다"
+  },
+  {
+    "id": "2020-2-final-unified-044",
+    "examId": "2020-2-final-unified",
+    "exam": "20-2 기말 · 통합본",
+    "year": 2020,
+    "term": "2학기 기말",
+    "number": 44,
+    "question": "Which of the below is NOT a correct statement? (배점 5)",
+    "choices": [
+      "Corporate intranet is viewed as new opportunities for business expansion",
+      "LinkedIn faces potential competition with Facebook and Google+",
+      "Monetizing global markets is much easier than the US market",
+      "Customer switching cost is relatively low for LinkedIn's service"
+    ],
+    "answer": 2,
+    "answerText": "Monetizing global markets is much easier than the US market",
+    "explanation": "글로벌 시장의 수익화(monetizing)는 미국 시장보다 '더 쉬운' 것이 아니라 오히려 더 어렵다. 따라서 이 서술이 틀리다. 나머지(기업 인트라넷의 사업확장 기회, 페이스북·구글+와의 잠재 경쟁, 낮은 전환비용)는 맞는 서술이다. -e"
   }
 ];
