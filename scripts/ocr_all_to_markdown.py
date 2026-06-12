@@ -10,6 +10,7 @@ SOURCE = Path(r"C:\성균관대\10_학교\JEAN\경전 족보\경전 족보")
 OUTPUT = Path("ocr-md")
 OUTPUT.mkdir(exist_ok=True)
 ocr = RapidOCR()
+LATEST_STEMS = {"23-2", "경전 23-2 (오프) 족보", "경전 24-1 기말", "경전 25-1 기말"}
 
 
 def tidy(text):
@@ -76,6 +77,8 @@ def docx_markdown(path):
 
 
 for path in sorted(SOURCE.iterdir()):
+    if path.stem not in LATEST_STEMS:
+        continue
     target = OUTPUT / f"{path.stem}.md"
     if target.exists():
         print(f"SKIP {target}", flush=True)

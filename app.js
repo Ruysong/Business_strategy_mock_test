@@ -1,7 +1,7 @@
 const STORAGE_KEY = "classic-exam-study-v1";
 const state = {
   year: "all",
-  exam: "all",
+  exam: "2025-1-final",
   filter: "all",
   currentId: null,
   sidebarOpen: false,
@@ -25,7 +25,7 @@ function allQuestions() {
 function filteredQuestions() {
   return allQuestions().filter(q => {
     const yearOk = state.year === "all" || String(q.year) === state.year;
-    const examOk = state.exam === "all" || q.exam === state.exam;
+    const examOk = state.exam === "all" || q.examId === state.exam;
     const result = state.study.answers[q.id];
     const filterOk =
       state.filter === "all" ||
@@ -80,9 +80,7 @@ function render() {
   const questions = filteredQuestions();
   const q = currentQuestion();
   const years = [...new Set(allQuestions().map(q => q.year))].sort((a, b) => b - a);
-  const exams = [...new Set(allQuestions()
-    .filter(q => state.year === "all" || String(q.year) === state.year)
-    .map(q => q.exam))];
+  const exams = (window.EXAM_CATALOG || []).filter(exam => state.year === "all" || String(exam.year) === state.year);
   const answered = questions.filter(q => state.study.answers[q.id] !== undefined).length;
   const progress = questions.length ? Math.round(answered / questions.length * 100) : 0;
   const currentIndex = q ? questions.findIndex(item => item.id === q.id) : -1;
@@ -102,7 +100,7 @@ function render() {
           </select>
           <select class="year-select" data-action="exam">
             <option value="all">전체 시험</option>
-            ${exams.map(exam => `<option value="${escapeHtml(exam)}" ${state.exam === exam ? "selected" : ""}>${escapeHtml(exam)}</option>`).join("")}
+            ${exams.map(exam => `<option value="${exam.id}" ${state.exam === exam.id ? "selected" : ""}>${escapeHtml(exam.label)} · ${escapeHtml(exam.status)}</option>`).join("")}
           </select>
           <div class="filter-tabs">
             ${[["all","전체"],["wrong","오답"],["starred","별표"]].map(([key,label]) =>
@@ -124,7 +122,7 @@ function render() {
           <div class="top-meta">${q ? `<span class="pill">${escapeHtml(q.exam)}</span><span class="pill">${q.year}년 · ${q.term}</span>` : ""}</div>
           ${q && state.study.answers[q.id] !== undefined ? `<button class="reset-button" data-action="reset">정답 취소 · 다시 풀기</button>` : `<span></span>`}
         </div>
-        ${q ? cardMarkup(q) : `<div class="card empty">이 조건에 해당하는 문제가 없습니다.</div>`}
+        ${q ? cardMarkup(q) : `<div class="card empty"><strong>명확하게 복원된 문제가 아직 없습니다.</strong><br><br>원본 OCR 품질이 낮아 불완전한 문항은 제외했습니다.</div>`}
         <div class="bottom-nav">
           <button class="nav-button" data-action="prev" ${currentIndex <= 0 ? "disabled" : ""}>← 이전</button>
           <span class="keyboard-hint">← → 이동 · 1–4 답 선택 · R 다시 풀기 · S 별표</span>
