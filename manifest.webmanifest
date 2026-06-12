@@ -1,0 +1,9 @@
+{
+  "name": "경전 기출 플래시카드",
+  "short_name": "경전 기출",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#f5f1e8",
+  "lang": "ko"
+}
