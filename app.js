@@ -59,6 +59,18 @@ function resetAnswer(q) {
   render();
 }
 
+function resetExam() {
+  const questions = filteredQuestions();
+  const examQuestions = allQuestions().filter(q => state.exam === "all" || q.examId === state.exam);
+  if (!examQuestions.length) return;
+  if (!window.confirm("이 회차의 풀이 기록을 모두 지우고 다시 풀까요? 별표는 유지됩니다.")) return;
+  examQuestions.forEach(q => delete state.study.answers[q.id]);
+  state.filter = "all";
+  state.currentId = examQuestions[0]?.id || questions[0]?.id || null;
+  saveStudy();
+  render();
+}
+
 function toggleStar(q) {
   state.study.starred[q.id] = !state.study.starred[q.id];
   saveStudy();
@@ -111,6 +123,7 @@ function render() {
         <div class="progress-block">
           <div class="progress-copy"><span>${answered} / ${questions.length} 풀이</span><span>${progress}%</span></div>
           <div class="progress-track"><div class="progress-value" style="width:${progress}%"></div></div>
+          ${state.exam !== "all" && answered > 0 ? `<button class="reset-exam-button ${progress === 100 ? "complete" : ""}" data-action="reset-exam">${progress === 100 ? "이 회차 다시 풀기" : "이 회차 풀이 초기화"}</button>` : ""}
         </div>
         <div class="question-list">
           ${questions.map(item => `<button class="q-jump ${item.id === state.currentId ? "active" : ""} ${resultClass(item)} ${state.study.starred[item.id] ? "starred" : ""}" data-id="${item.id}">${String(item.number).padStart(2,"0")}</button>`).join("")}
@@ -187,6 +200,7 @@ document.addEventListener("click", event => {
   if (el.dataset.action === "prev") move(-1);
   if (el.dataset.action === "next") move(1);
   if (el.dataset.action === "reset" && q) resetAnswer(q);
+  if (el.dataset.action === "reset-exam") resetExam();
   if (el.dataset.action === "reveal" && q) setAnswer(q, 0);
   if (el.dataset.action === "star" && q) toggleStar(q);
   if (el.dataset.action === "open-sidebar") state.sidebarOpen = true;

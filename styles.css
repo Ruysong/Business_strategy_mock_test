@@ -34,6 +34,8 @@ button { color: inherit; cursor: pointer; }
 .progress-copy { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin-bottom: 7px; }
 .progress-track { height: 5px; background: #e5e1d7; border-radius: 99px; overflow: hidden; }
 .progress-value { height: 100%; background: var(--accent); border-radius: inherit; transition: width .25s; }
+.reset-exam-button { width: 100%; margin-top: 12px; padding: 9px 10px; border: 1px solid var(--line); border-radius: 10px; background: transparent; color: var(--muted); font-size: 12px; font-weight: 750; }
+.reset-exam-button.complete { border-color: var(--accent); background: var(--accent); color: white; }
 .question-list { padding: 2px 12px 30px; overflow-y: auto; display: grid; grid-template-columns: repeat(4, 1fr); align-content: start; gap: 7px; }
 .q-jump { position: relative; aspect-ratio: 1; border: 1px solid transparent; border-radius: 11px; background: transparent; font-size: 12px; font-weight: 700; }
 .q-jump:hover { background: #ebe7dd; }
