@@ -14,7 +14,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘포부를 설정하고, 전략을 개발하고, 성과 피드백을 통합하는 주기.’이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-003",
@@ -28,7 +29,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-004",
@@ -44,7 +46,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘조직의 가치와 목적의 합계.’이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-007",
@@ -60,7 +63,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 3,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘A및B A, B 및 C’이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-008",
@@ -74,7 +78,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-009",
@@ -88,7 +93,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-010",
@@ -102,7 +108,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-011",
@@ -116,7 +123,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-013",
@@ -130,7 +138,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-014",
@@ -144,7 +153,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-015",
@@ -158,7 +168,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-016",
@@ -172,7 +183,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-final-017",
@@ -186,7 +198,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 기말.md"
+    "source": "23-1 기말.md",
+    "exam": "23-1 기말"
   },
   {
     "id": "2023-1-mid-011",
@@ -203,7 +216,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘수평 차별화.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-012",
@@ -220,7 +234,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘가치사슬 활동 선택이 내부적으로 일관되고 잘 통합되도록 합니다.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-013",
@@ -236,7 +251,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘풀 서비스 경쟁업체와 같이 사우스웨스트는 다양한 가격에 호응하는 다양한 고객군을 개발하였습 니다.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-014",
@@ -252,7 +268,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 3,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘위의 모든 것.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-015",
@@ -266,7 +283,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-016",
@@ -283,7 +301,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘공급 업체 기술의 변화는 해당 산업 내의 경쟁 환경을 변화시킬 수 있습니다.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-017",
@@ -300,7 +319,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘산업 환경에 영향을 미치는 중요한 요소를 무시합니다.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-019",
@@ -314,7 +334,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-020",
@@ -328,7 +349,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-022",
@@ -342,7 +364,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-023",
@@ -359,7 +382,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘각 활동에 대한 비용 동인을 식별.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-024",
@@ -373,7 +397,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-025",
@@ -387,7 +412,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-026",
@@ -401,7 +427,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-027",
@@ -415,7 +442,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-028",
@@ -431,7 +459,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘블록버스터에서는 소매점 관리 역량이 매우 중요한 요소이다.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-029",
@@ -447,7 +476,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘연체료는 넷플릭스의 중요한 수익원으로 매출의 10%를 차지한다.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-030",
@@ -463,7 +493,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘고객 취향에 맞춘 영화 추천시스템을 갖추어 고객만족도 제고에 노력하였다.’이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-031",
@@ -477,7 +508,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2023-1-mid-032",
@@ -491,7 +523,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "23-1 중간.md"
+    "source": "23-1 중간.md",
+    "exam": "23-1 중간"
   },
   {
     "id": "2022-2-final-001",
@@ -504,7 +537,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "전략의 목적은 장기적으로 산업 평균을 웃도는 지속 가능한 수익을 창출하는 것이다."
+    "explanation": "전략의 목적은 장기적으로 산업 평균을 웃도는 지속 가능한 수익을 창출하는 것이다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-002",
@@ -517,7 +552,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-003",
@@ -530,7 +567,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-004",
@@ -543,7 +582,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "강한 트레이드오프보다 선택 간 상호보완성과 일관성이 강한 비즈니스 모델을 만든다."
+    "explanation": "강한 트레이드오프보다 선택 간 상호보완성과 일관성이 강한 비즈니스 모델을 만든다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-005",
@@ -556,7 +597,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-006",
@@ -569,7 +612,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "중요한 환경 변화의 효과 평가는 산업 분석의 핵심 목적 중 하나다."
+    "explanation": "중요한 환경 변화의 효과 평가는 산업 분석의 핵심 목적 중 하나다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-007",
@@ -582,7 +627,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-008",
@@ -595,7 +642,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "사우스웨스트는 허브 앤 스포크가 아니라 지점 간 운항 시스템을 활용했다."
+    "explanation": "사우스웨스트는 허브 앤 스포크가 아니라 지점 간 운항 시스템을 활용했다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-009",
@@ -608,7 +657,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "이 설명은 선택지 통합보다 대체 불가능한 부가가치와 관련된다."
+    "explanation": "이 설명은 선택지 통합보다 대체 불가능한 부가가치와 관련된다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-010",
@@ -621,7 +672,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-011",
@@ -634,7 +687,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "경쟁 우위는 이질적 자원과 차별화된 역량에서 파생될 수 있다."
+    "explanation": "경쟁 우위는 이질적 자원과 차별화된 역량에서 파생될 수 있다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-012",
@@ -647,7 +702,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-013",
@@ -660,7 +717,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "가치 포착은 창출된 가치 중 특정 참여자가 확보하는 몫을 뜻한다."
+    "explanation": "가치 포착은 창출된 가치 중 특정 참여자가 확보하는 몫을 뜻한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-014",
@@ -673,7 +732,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-015",
@@ -686,7 +747,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-016",
@@ -699,7 +762,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "소송과 분쟁 중재 비용은 현물 계약의 한계이며 소유를 고려하게 하는 요인이다."
+    "explanation": "소송과 분쟁 중재 비용은 현물 계약의 한계이며 소유를 고려하게 하는 요인이다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-017",
@@ -712,7 +777,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-018",
@@ -725,7 +792,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-019",
@@ -738,7 +807,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "공동 구매는 경쟁적 상호작용이 아니라 경쟁자 간 협력의 사례다."
+    "explanation": "공동 구매는 경쟁적 상호작용이 아니라 경쟁자 간 협력의 사례다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-020",
@@ -751,7 +822,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "Apple PC 플랫폼은 외부 개발자가 참여했어도 통제적인 폐쇄형 전략에 가까웠다."
+    "explanation": "Apple PC 플랫폼은 외부 개발자가 참여했어도 통제적인 폐쇄형 전략에 가까웠다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-021",
@@ -764,7 +837,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-022",
@@ -777,7 +852,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-023",
@@ -790,7 +867,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "외국인 비용은 해외 기업이 현지 기업보다 겪는 정보·제도·문화적 불리함이다."
+    "explanation": "외국인 비용은 해외 기업이 현지 기업보다 겪는 정보·제도·문화적 불리함이다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-024",
@@ -803,7 +882,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-025",
@@ -816,7 +897,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-026",
@@ -829,7 +912,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "건강 위험 행동은 통상 흡연, 운동 부족, 과음, 좋지 않은 식생활의 네 가지로 설명된다."
+    "explanation": "건강 위험 행동은 통상 흡연, 운동 부족, 과음, 좋지 않은 식생활의 네 가지로 설명된다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-027",
@@ -842,7 +927,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "디스커버리는 보상 설계 등을 통해 고객에게서 직접 행동 데이터를 축적했다."
+    "explanation": "디스커버리는 보상 설계 등을 통해 고객에게서 직접 행동 데이터를 축적했다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-028",
@@ -855,7 +942,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-029",
@@ -868,7 +957,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-030",
@@ -881,7 +972,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "블록버스터는 넷플릭스 대응이 늦었고 기존 수익 구조 때문에 전환에 어려움을 겪었다."
+    "explanation": "블록버스터는 넷플릭스 대응이 늦었고 기존 수익 구조 때문에 전환에 어려움을 겪었다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-031",
@@ -894,7 +987,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "All you can eat 모델은 사용 확대에 대한 사후 대응이 아니라 핵심 구독 모델이었다."
+    "explanation": "All you can eat 모델은 사용 확대에 대한 사후 대응이 아니라 핵심 구독 모델이었다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-032",
@@ -907,7 +1002,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 1,
-    "explanation": "글로벌 화학 산업의 마진이 전반적으로 계속 높아진다고 일반화하기 어렵다."
+    "explanation": "글로벌 화학 산업의 마진이 전반적으로 계속 높아진다고 일반화하기 어렵다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-033",
@@ -920,7 +1017,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2022-2-final-034",
@@ -933,7 +1032,9 @@ window.QUESTION_BANK = [
       "거짓"
     ],
     "answer": 0,
-    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다."
+    "explanation": "문장의 핵심 개념과 사례를 기준으로 참·거짓을 판단한다.",
+    "exam": "22-2 기말 (문제만)",
+    "source": "22-2 기말 (문제만).md"
   },
   {
     "id": "2021-2-final-001",
@@ -947,7 +1048,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-002",
@@ -961,7 +1063,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-003",
@@ -975,7 +1078,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-004",
@@ -989,7 +1093,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-005",
@@ -1003,7 +1108,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-006",
@@ -1017,7 +1123,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-007",
@@ -1031,7 +1138,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-009",
@@ -1047,7 +1155,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘고객이 지불할 의사가 있는 금액과 회사에서 발생하는 비용 사이의 차이를 증가시킵니다.’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-012",
@@ -1061,7 +1170,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-013",
@@ -1077,7 +1187,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 3,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘공급업체의 기술 변화는 핵심 산업 내 경쟁 환경을 변화시킬 수 있습니다.’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-014",
@@ -1093,7 +1204,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 3,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘위의 모든 것’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-015",
@@ -1110,7 +1222,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘경쟁하는 국가 또는 경제 지역에서 발생하는 비용을 최소화합니다.’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-016",
@@ -1127,7 +1240,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 3,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘전속계약으로 인한 시너지는?’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-017",
@@ -1143,7 +1257,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘네트워크 효과는 스타트업만의 문제입니다.’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-018",
@@ -1157,7 +1272,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-021",
@@ -1173,7 +1289,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘카페테리아는 저렴한 뷔페를 제공합니다.’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-022",
@@ -1187,7 +1304,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-023",
@@ -1201,7 +1319,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "문장의 핵심 전략 개념과 사례 설명을 기준으로 판단한 정답이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2021-2-final-024",
@@ -1217,7 +1336,8 @@ window.QUESTION_BANK = [
     ],
     "answer": 0,
     "explanation": "핵심 개념에 가장 부합하는 설명은 ‘(A) 파트너는 다른 목표와 우선 순위를 가질 수 있습니다.’이다.",
-    "source": "21-2 기말 (답x).md"
+    "source": "21-2 기말 (답x).md",
+    "exam": "21-2 기말 (답x)"
   },
   {
     "id": "2020-2-final-001",
@@ -1230,7 +1350,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "MS 는 못 늘림"
+    "explanation": "MS 는 못 늘림",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-002",
@@ -1243,7 +1365,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-003",
@@ -1256,7 +1380,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-004",
@@ -1269,7 +1395,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "둘이 반대되는 개념임"
+    "explanation": "둘이 반대되는 개념임",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-005",
@@ -1282,7 +1410,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "Value chain 설명"
+    "explanation": "Value chain 설명",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-006",
@@ -1295,7 +1425,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "the firm’s position shapes the business model."
+    "explanation": "the firm’s position shapes the business model.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-007",
@@ -1308,7 +1440,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-008",
@@ -1321,7 +1455,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-009",
@@ -1334,7 +1470,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-010",
@@ -1347,7 +1485,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "also post – acquisition surprises information asymmetry and lemons problem in acquisitions"
+    "explanation": "also post – acquisition surprises information asymmetry and lemons problem in acquisitions",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-011",
@@ -1360,7 +1500,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-013",
@@ -1373,7 +1515,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "상호 보완적일 때 잘됨"
+    "explanation": "상호 보완적일 때 잘됨",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-015",
@@ -1386,7 +1530,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "strategic positioning idea - need to carve out a position by aligning internal and external fronts altogether."
+    "explanation": "strategic positioning idea - need to carve out a position by aligning internal and external fronts altogether.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-016",
@@ -1399,7 +1545,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-017",
@@ -1412,7 +1560,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-018",
@@ -1425,7 +1575,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "strategy execution 개념임"
+    "explanation": "strategy execution 개념임",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-019",
@@ -1438,7 +1590,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "monitoring and evaluation of unfamiliar operations"
+    "explanation": "monitoring and evaluation of unfamiliar operations",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-020",
@@ -1451,7 +1605,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-021",
@@ -1464,7 +1620,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "deployment 예시"
+    "explanation": "deployment 예시",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-022",
@@ -1477,7 +1635,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "as product diversity decreased more preservatives"
+    "explanation": "as product diversity decreased more preservatives",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-024",
@@ -1490,7 +1650,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "비행기 공동구매는 cooperation"
+    "explanation": "비행기 공동구매는 cooperation",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-025",
@@ -1503,7 +1665,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "Value create 컨셉임"
+    "explanation": "Value create 컨셉임",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-026",
@@ -1516,7 +1680,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-027",
@@ -1529,7 +1695,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "Performance gap: 실제 결과와 목표치의 차이 Opportunity gap: 목표치와 달성가능치의 차이"
+    "explanation": "Performance gap: 실제 결과와 목표치의 차이 Opportunity gap: 목표치와 달성가능치의 차이",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-028",
@@ -1542,7 +1710,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-029",
@@ -1555,7 +1725,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "Maximum"
+    "explanation": "Maximum",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-033",
@@ -1568,7 +1740,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-034",
@@ -1581,7 +1755,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-035",
@@ -1594,7 +1770,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "Good example of dual advantage(WTP 는 높이고, SOC 는 낮추는)"
+    "explanation": "Good example of dual advantage(WTP 는 높이고, SOC 는 낮추는)",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-036",
@@ -1607,7 +1785,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-037",
@@ -1620,7 +1800,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-038",
@@ -1633,7 +1815,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "Globalized firm 은 항상 위험부담을 가짐"
+    "explanation": "Globalized firm 은 항상 위험부담을 가짐",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-039",
@@ -1646,7 +1830,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-040",
@@ -1659,7 +1845,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "제도적 미비, 인수합병이 유리"
+    "explanation": "제도적 미비, 인수합병이 유리",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-312",
@@ -1672,7 +1860,9 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 1,
-    "explanation": "Closed 의 사례였음"
+    "explanation": "Closed 의 사례였음",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   },
   {
     "id": "2020-2-final-322",
@@ -1685,6 +1875,8 @@ window.QUESTION_BANK = [
       "False"
     ],
     "answer": 0,
-    "explanation": "문장의 전략 개념과 사례 설명이 일치한다."
+    "explanation": "문장의 전략 개념과 사례 설명이 일치한다.",
+    "exam": "20-2 기말 (답o, 해설o)",
+    "source": "20-2 기말 (답o, 해설o).md"
   }
 ];

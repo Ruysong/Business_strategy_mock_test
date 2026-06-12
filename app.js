@@ -1,6 +1,7 @@
 const STORAGE_KEY = "classic-exam-study-v1";
 const state = {
   year: "all",
+  exam: "all",
   filter: "all",
   currentId: null,
   sidebarOpen: false,
@@ -24,12 +25,13 @@ function allQuestions() {
 function filteredQuestions() {
   return allQuestions().filter(q => {
     const yearOk = state.year === "all" || String(q.year) === state.year;
+    const examOk = state.exam === "all" || q.exam === state.exam;
     const result = state.study.answers[q.id];
     const filterOk =
       state.filter === "all" ||
       (state.filter === "wrong" && result !== undefined && result !== q.answer) ||
       (state.filter === "starred" && state.study.starred[q.id]);
-    return yearOk && filterOk;
+    return yearOk && examOk && filterOk;
   });
 }
 
@@ -78,6 +80,9 @@ function render() {
   const questions = filteredQuestions();
   const q = currentQuestion();
   const years = [...new Set(allQuestions().map(q => q.year))].sort((a, b) => b - a);
+  const exams = [...new Set(allQuestions()
+    .filter(q => state.year === "all" || String(q.year) === state.year)
+    .map(q => q.exam))];
   const answered = questions.filter(q => state.study.answers[q.id] !== undefined).length;
   const progress = questions.length ? Math.round(answered / questions.length * 100) : 0;
   const currentIndex = q ? questions.findIndex(item => item.id === q.id) : -1;
@@ -94,6 +99,10 @@ function render() {
           <select class="year-select" data-action="year">
             <option value="all">전체 연도</option>
             ${years.map(y => `<option value="${y}" ${state.year === String(y) ? "selected" : ""}>${y}년</option>`).join("")}
+          </select>
+          <select class="year-select" data-action="exam">
+            <option value="all">전체 시험</option>
+            ${exams.map(exam => `<option value="${escapeHtml(exam)}" ${state.exam === exam ? "selected" : ""}>${escapeHtml(exam)}</option>`).join("")}
           </select>
           <div class="filter-tabs">
             ${[["all","전체"],["wrong","오답"],["starred","별표"]].map(([key,label]) =>
@@ -112,7 +121,7 @@ function render() {
       <main class="main">
         <div class="topbar">
           <button class="mobile-menu" data-action="open-sidebar">☰</button>
-          <div class="top-meta">${q ? `<span class="pill">${q.year}년</span><span class="pill">${q.term}</span>` : ""}</div>
+          <div class="top-meta">${q ? `<span class="pill">${escapeHtml(q.exam)}</span><span class="pill">${q.year}년 · ${q.term}</span>` : ""}</div>
           ${q && state.study.answers[q.id] !== undefined ? `<button class="reset-button" data-action="reset">정답 취소 · 다시 풀기</button>` : `<span></span>`}
         </div>
         ${q ? cardMarkup(q) : `<div class="card empty">이 조건에 해당하는 문제가 없습니다.</div>`}
@@ -162,7 +171,7 @@ document.addEventListener("click", event => {
   if (el.dataset.filter) { state.filter = el.dataset.filter; state.currentId = null; }
   if (el.dataset.id) { state.currentId = el.dataset.id; state.sidebarOpen = false; }
   if (el.dataset.choice !== undefined && q && state.study.answers[q.id] === undefined) setAnswer(q, Number(el.dataset.choice));
-  if (el.dataset.action === "year") return;
+  if (el.dataset.action === "year" || el.dataset.action === "exam") return;
   if (el.dataset.action === "prev") move(-1);
   if (el.dataset.action === "next") move(1);
   if (el.dataset.action === "reset" && q) resetAnswer(q);
@@ -175,6 +184,12 @@ document.addEventListener("click", event => {
 document.addEventListener("change", event => {
   if (event.target.dataset.action === "year") {
     state.year = event.target.value;
+    state.exam = "all";
+    state.currentId = null;
+    render();
+  }
+  if (event.target.dataset.action === "exam") {
+    state.exam = event.target.value;
     state.currentId = null;
     render();
   }

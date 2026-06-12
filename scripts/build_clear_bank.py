@@ -1,7 +1,6 @@
 from pathlib import Path
 import json
 import re
-import subprocess
 
 ROOT = Path("ocr-md")
 
@@ -82,14 +81,21 @@ for key, year, term, filename in SOURCES:
             "answer": answer,
             "explanation": explanation(question, choices, answer),
             "source": filename,
+            "exam": Path(filename).stem,
         })
 
 # Preserve the existing high-confidence 2020-2 and 2022-2 generated questions.
-generated = subprocess.check_output(
-    ["git", "show", "HEAD:data/generated-questions.js"], text=True, encoding="utf-8"
-)
-payload = generated.split("=", 1)[1].strip().rstrip(";")
-questions.extend(json.loads(payload))
+current = Path("data/questions.js").read_text(encoding="utf-8")
+payload = current.split("=", 1)[1].strip().rstrip(";")
+older_questions = [q for q in json.loads(payload) if q["year"] in {2020, 2022}]
+for question in older_questions:
+    if question["year"] == 2022:
+        question["exam"] = "22-2 기말 (문제만)"
+        question["source"] = "22-2 기말 (문제만).md"
+    elif question["year"] == 2020:
+        question["exam"] = "20-2 기말 (답o, 해설o)"
+        question["source"] = "20-2 기말 (답o, 해설o).md"
+questions.extend(older_questions)
 questions.sort(key=lambda q: (-q["year"], q["term"], q["number"]))
 
 out = "// Clear readable past-exam questions only. Auto-generated.\nwindow.QUESTION_BANK = "
