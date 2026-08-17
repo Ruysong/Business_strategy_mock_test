@@ -1,0 +1,7 @@
+.vercel
+.DS_Store
+Thumbs.db
+extracted/
+source-inspection.json
+scripts/tmp_spans.py
+ocr-md-korean/
