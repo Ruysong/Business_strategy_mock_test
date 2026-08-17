@@ -232,5 +232,5 @@ document.addEventListener("keydown", event => {
   if (event.key.toLowerCase() === "s" && q) toggleStar(q);
 });
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => {});
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js").catch(() => {});
 render();
