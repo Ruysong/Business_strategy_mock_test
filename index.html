@@ -562,6 +562,7 @@
       mode: "practice",
       practicePool: [],
       current: null,
+      practiceQueue: [],
       practiceHistory: [],
       practiceHistoryIndex: -1,
       selected: null,
@@ -672,6 +673,7 @@
 
     function setPracticePool() {
       state.practicePool = practiceFilter();
+      state.practiceQueue = [];
       state.practiceHistory = [];
       state.practiceHistoryIndex = -1;
       showPracticeQuestion(pickNextQuestion(null), true);
@@ -689,14 +691,32 @@
       renderPractice();
     }
 
+    function shuffledKeys(pool) {
+      const keys = pool.map(keyOf);
+      for (let i = keys.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [keys[i], keys[j]] = [keys[j], keys[i]];
+      }
+      return keys;
+    }
+
+    function refillPracticeQueue(current) {
+      state.practiceQueue = shuffledKeys(state.practicePool);
+      if (!current || state.practiceQueue.length < 2) return;
+      const currentKey = keyOf(current);
+      if (state.practiceQueue[0] !== currentKey) return;
+      const swapIndex = state.practiceQueue.findIndex(key => key !== currentKey);
+      if (swapIndex > 0) [state.practiceQueue[0], state.practiceQueue[swapIndex]] = [state.practiceQueue[swapIndex], state.practiceQueue[0]];
+    }
+
     function pickNextQuestion(current) {
       const pool = state.practicePool;
       if (!pool.length) return null;
       if ($("randomToggle").checked) {
         if (pool.length === 1) return pool[0];
-        let q = pool[Math.floor(Math.random() * pool.length)];
-        while (current && keyOf(q) === keyOf(current)) q = pool[Math.floor(Math.random() * pool.length)];
-        return q;
+        if (!state.practiceQueue.length) refillPracticeQueue(current);
+        const key = state.practiceQueue.shift();
+        return pool.find(q => keyOf(q) === key) || pool[0];
       }
       if (!current) return pool[0];
       const idx = pool.findIndex(q => keyOf(q) === keyOf(current));
