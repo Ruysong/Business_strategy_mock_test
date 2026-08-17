@@ -221,8 +221,36 @@
 
     .chapter-list {
       display: grid;
-      gap: 5px;
+      gap: 14px;
       margin-top: 12px;
+    }
+
+    .chapter-group {
+      display: grid;
+      gap: 6px;
+    }
+
+    .chapter-group-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 4px 2px 2px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 850;
+      line-height: 1.35;
+    }
+    .chapter-group-title span:last-child {
+      color: var(--muted);
+      font-weight: 750;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .chapter-group-items {
+      display: grid;
+      gap: 5px;
     }
 
     .chapter-chip {
@@ -573,11 +601,43 @@
     };
 
     const $ = (id) => document.getElementById(id);
-    const chapters = [...new Set(DATA.map(q => q.autoChapter || q.chapter || "미분류"))].sort((a, b) => a.localeCompare(b, "ko"));
+    const CHAPTER_GROUPS = [
+      {
+        title: "1과목 데이터 모델링의 이해",
+        chapters: ["데이터 모델의 이해", "엔터티", "속성", "관계", "식별자", "정규화", "모델과 트랜잭션", "NULL"]
+      },
+      {
+        title: "2-1 SQL 기본",
+        chapters: ["관계형 DB와 SQL 분류", "SELECT 문", "WHERE 절", "함수", "GROUP BY · HAVING", "ORDER BY", "조인"]
+      },
+      {
+        title: "2-2 SQL 활용",
+        chapters: ["서브쿼리", "집합 연산자", "그룹 함수", "윈도우 함수", "Top N 쿼리", "계층형 질의", "PIVOT · UNPIVOT", "정규 표현식"]
+      },
+      {
+        title: "2-3 관리 구문",
+        chapters: ["DML", "TCL", "DDL", "DCL"]
+      }
+    ];
+    const chapterOf = (q) => q.autoChapter || q.chapter || "미분류";
+    const chapterSet = new Set(DATA.map(chapterOf));
+    const orderedChapters = CHAPTER_GROUPS.flatMap(group => group.chapters).filter(chapter => chapterSet.has(chapter));
+    const orderedChapterSet = new Set(orderedChapters);
+    const extraChapters = [...chapterSet].filter(chapter => !orderedChapterSet.has(chapter)).sort((a, b) => a.localeCompare(b, "ko"));
+    const chapters = [...orderedChapters, ...extraChapters];
     const rounds = [...new Set(DATA.map(q => q.examRound))].sort((a, b) => b - a);
 
     function keyOf(q) {
       return [q.source, q.examRound, q.questionNo, q.questionId].join(":");
+    }
+
+    function chapterCounts() {
+      const counts = new Map();
+      DATA.forEach(q => {
+        const chapter = chapterOf(q);
+        counts.set(chapter, (counts.get(chapter) || 0) + 1);
+      });
+      return counts;
     }
 
     function getStars() {
@@ -647,10 +707,27 @@
 
     function populateControls() {
       $("dataCount").textContent = DATA.length.toLocaleString() + "문항 내장";
-      $("chapterSelect").innerHTML = '<option value="all">전체 단원</option>' + chapters.map(c => '<option value="' + esc(c) + '">' + esc(c) + '</option>').join("");
+      const counts = chapterCounts();
+      $("chapterSelect").innerHTML = '<option value="all">전체 단원</option>' + chapterSelectGroupsHtml(counts);
       $("roundSelect").innerHTML = '<option value="all">전체 회차</option>' + rounds.map(r => '<option value="' + r + '">제' + r + '회</option>').join("");
       updateExamRounds();
       renderChapterList();
+    }
+
+    function visibleChapterGroups() {
+      const groups = CHAPTER_GROUPS.map(group => ({
+        title: group.title,
+        chapters: group.chapters.filter(chapter => chapterSet.has(chapter))
+      })).filter(group => group.chapters.length);
+      if (extraChapters.length) groups.push({ title: "기타/미분류", chapters: extraChapters });
+      return groups;
+    }
+
+    function chapterSelectGroupsHtml(counts) {
+      return visibleChapterGroups().map(group => {
+        const options = group.chapters.map(chapter => '<option value="' + esc(chapter) + '">' + esc(chapter) + ' (' + (counts.get(chapter) || 0) + ')</option>').join("");
+        return '<optgroup label="' + esc(group.title) + '">' + options + '</optgroup>';
+      }).join("");
     }
 
     function updateExamRounds() {
@@ -666,7 +743,7 @@
       const starOnly = $("starOnlyToggle").checked;
       const stars = getStars();
       return DATA.filter(q =>
-        (chapter === "all" || q.autoChapter === chapter) &&
+        (chapter === "all" || chapterOf(q) === chapter) &&
         (source === "all" || q.source === source) &&
         (round === "all" || String(q.examRound) === round) &&
         (!starOnly || stars.has(keyOf(q)))
@@ -850,10 +927,13 @@
     }
 
     function renderChapterList() {
-      const counts = new Map();
-      DATA.forEach(q => counts.set(q.autoChapter, (counts.get(q.autoChapter) || 0) + 1));
+      const counts = chapterCounts();
       $("chapterFoldCount").textContent = chapters.length.toLocaleString() + "개";
-      $("chapterList").innerHTML = chapters.map(c => '<button class="chapter-chip" data-chapter="' + esc(c) + '" type="button"><span>' + esc(c) + '</span><span>' + counts.get(c) + '</span></button>').join("");
+      $("chapterList").innerHTML = visibleChapterGroups().map(group => {
+        const total = group.chapters.reduce((sum, chapter) => sum + (counts.get(chapter) || 0), 0);
+        const chips = group.chapters.map(chapter => '<button class="chapter-chip" data-chapter="' + esc(chapter) + '" type="button"><span>' + esc(chapter) + '</span><span>' + (counts.get(chapter) || 0) + '</span></button>').join("");
+        return '<section class="chapter-group"><h3 class="chapter-group-title"><span>' + esc(group.title) + '</span><span>' + total.toLocaleString() + '문항</span></h3><div class="chapter-group-items">' + chips + '</div></section>';
+      }).join("");
       document.querySelectorAll(".chapter-chip").forEach(btn => {
         btn.addEventListener("click", () => {
           $("chapterSelect").value = btn.dataset.chapter;
