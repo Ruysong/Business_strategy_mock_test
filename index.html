@@ -563,6 +563,8 @@
       practicePool: [],
       current: null,
       practiceQueue: [],
+      practiceRound: 0,
+      currentPracticeProgress: null,
       practiceHistory: [],
       practiceHistoryIndex: -1,
       selected: null,
@@ -674,18 +676,23 @@
     function setPracticePool() {
       state.practicePool = practiceFilter();
       state.practiceQueue = [];
+      state.practiceRound = 0;
+      state.currentPracticeProgress = null;
       state.practiceHistory = [];
       state.practiceHistoryIndex = -1;
       showPracticeQuestion(pickNextQuestion(null), true);
     }
 
-    function showPracticeQuestion(q, pushHistory) {
+    function showPracticeQuestion(pick, pushHistory) {
+      const q = pick && pick.q ? pick.q : pick;
+      const progress = pick && pick.q ? pick.progress : null;
       state.current = q;
+      state.currentPracticeProgress = progress;
       state.selected = null;
       state.revealed = false;
       if (q && pushHistory) {
         state.practiceHistory.splice(state.practiceHistoryIndex + 1);
-        state.practiceHistory.push(keyOf(q));
+        state.practiceHistory.push({ key: keyOf(q), progress });
         state.practiceHistoryIndex = state.practiceHistory.length - 1;
       }
       renderPractice();
@@ -701,6 +708,7 @@
     }
 
     function refillPracticeQueue(current) {
+      state.practiceRound += 1;
       state.practiceQueue = shuffledKeys(state.practicePool);
       if (!current || state.practiceQueue.length < 2) return;
       const currentKey = keyOf(current);
@@ -713,10 +721,21 @@
       const pool = state.practicePool;
       if (!pool.length) return null;
       if ($("randomToggle").checked) {
-        if (pool.length === 1) return pool[0];
+        if (pool.length === 1) {
+          if (!state.practiceRound) state.practiceRound = 1;
+          return { q: pool[0], progress: { round: state.practiceRound, position: 1, total: 1 } };
+        }
         if (!state.practiceQueue.length) refillPracticeQueue(current);
         const key = state.practiceQueue.shift();
-        return pool.find(q => keyOf(q) === key) || pool[0];
+        const q = pool.find(q => keyOf(q) === key) || pool[0];
+        return {
+          q,
+          progress: {
+            round: state.practiceRound,
+            position: pool.length - state.practiceQueue.length,
+            total: pool.length
+          }
+        };
       }
       if (!current) return pool[0];
       const idx = pool.findIndex(q => keyOf(q) === keyOf(current));
@@ -740,14 +759,16 @@
       if ($("randomToggle").checked) {
         if (direction < 0) {
           state.practiceHistoryIndex -= 1;
-          const key = state.practiceHistory[state.practiceHistoryIndex];
-          showPracticeQuestion(pool.find(q => keyOf(q) === key) || pool[0], false);
+          const entry = state.practiceHistory[state.practiceHistoryIndex];
+          const key = typeof entry === "string" ? entry : entry.key;
+          showPracticeQuestion({ q: pool.find(q => keyOf(q) === key) || pool[0], progress: entry.progress || null }, false);
           return;
         }
         if (state.practiceHistoryIndex < state.practiceHistory.length - 1) {
           state.practiceHistoryIndex += 1;
-          const key = state.practiceHistory[state.practiceHistoryIndex];
-          showPracticeQuestion(pool.find(q => keyOf(q) === key) || pool[0], false);
+          const entry = state.practiceHistory[state.practiceHistoryIndex];
+          const key = typeof entry === "string" ? entry : entry.key;
+          showPracticeQuestion({ q: pool.find(q => keyOf(q) === key) || pool[0], progress: entry.progress || null }, false);
           return;
         }
         showPracticeQuestion(pickNextQuestion(state.current), true);
@@ -768,7 +789,10 @@
       const stars = getStars();
       const starred = stars.has(keyOf(q));
       const currentIndex = currentPracticeIndex();
-      const countLabel = currentIndex >= 0 ? (currentIndex + 1).toLocaleString() + " / " + state.practicePool.length.toLocaleString() : state.practicePool.length.toLocaleString() + "문항";
+      const progress = state.currentPracticeProgress;
+      const countLabel = $("randomToggle").checked && progress
+        ? "랜덤 " + progress.round.toLocaleString() + "회차 " + progress.position.toLocaleString() + " / " + progress.total.toLocaleString()
+        : currentIndex >= 0 ? (currentIndex + 1).toLocaleString() + " / " + state.practicePool.length.toLocaleString() : state.practicePool.length.toLocaleString() + "문항";
       $("practiceView").innerHTML = [
         '<article class="card question-card">',
         '<div class="q-meta">',
